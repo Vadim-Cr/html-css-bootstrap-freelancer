@@ -24,6 +24,22 @@ main{
     margin: auto;
 }
 
+.fa-star{
+    font-size: 2rem;
+}
+
+.font_c_white{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.font_c_black{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
 .main_container_two{
     background-color: white;
     padding: 1rem;
@@ -37,6 +53,47 @@ main{
     width: 40%;
     margin: auto;
     padding: 1rem;
+}
+
+.square{
+    height: 250px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.square img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.sub_main_container_two_down{
+    width: 70%;
+    margin: auto;
+}
+.house{
+    background-color: rgb(185,76,97);
+}
+
+.sweet{
+    background-color: #1BA6B3;
+}
+
+.circus{
+    background-color: #130F0E;
+}
+
+.console{
+    background-color: #1B83C0;
+}
+
+.bank{
+    background-color: #0F38B5;
+}
+
+.submarine{
+    background-color: #CCB2A3;
 }
 
 /*  *                       MAIN    END                        */
