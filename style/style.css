@@ -11,7 +11,24 @@ header{
     width: 70%;
     margin: auto;
 }
-/*  *                     HEADER END                           */
+
+.my_nav{
+    background-color: #2D3E50;
+    color: white 
+}
+.navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+/*  *                       HEADER END                         */
 /*  *                           MAIN                           */
 
 main{
@@ -43,7 +60,10 @@ main{
 .main_container_two{
     background-color: white;
     padding: 1rem;
+    margin: 3rem auto;
 }
+
+
 
 .sub_main_container_two{
     width: 70%;
@@ -96,6 +116,47 @@ main{
     background-color: #CCB2A3;
 }
 
+/*                      MAIN THIRD CONTAINER                   */
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button .white{
+    border: 1px solid white;
+    padding: 0.3rem;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+
+.white{
+    color: white;
+}
+
+/*                     MAIN FOURTH CONTAINER                   */
+
+.fourth_container{
+    width: 65%;
+    margin: 2rem auto;
+}
+input{
+    border: none;
+    width: 85%;
+}
+
+textarea{
+    border: none;
+}
+
+.form_border{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.471);
+    padding: 0.25rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+
 /*  *                       MAIN    END                        */
 /* *                        FOOTER                             */
 footer{
@@ -122,7 +183,7 @@ margin: auto;
 
 /* ! DEBUG */
 
-[class*="col"]{
+/* [class*="col"]{
     background-color: aquamarine;
     border: 1px solid black;
-}
+} */
